@@ -4,6 +4,11 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ExternalLink, Github, ArrowRight } from 'lucide-react';
 
+import projectImg1 from '../../assets/images/project_texture_1_1781228262176.jpg';
+import projectImg2 from '../../assets/images/project_texture_2_1781228279277.jpg';
+import projectImg3 from '../../assets/images/project_texture_3_1781228294949.jpg';
+import projectImg4 from '../../assets/images/project_texture_4_1781228309726.jpg';
+
 gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
@@ -11,28 +16,28 @@ const projects = [
     title: 'Cariton',
     type: 'Interactive Kiosk / AI',
     description: 'Transforming food ordering through AI-powered semantic search and high-performance ordering systems built with Angular.',
-    image: '/src/assets/images/project_texture_1_1781228262176.jpg',
+    image: projectImg1,
     tag: '01'
   },
   {
     title: 'PresencePro',
     type: 'AI Coaching Platform',
     description: 'Real-time feedback systems for leadership development, integrating OpenAI for personalized growth trajectories.',
-    image: '/src/assets/images/project_texture_2_1781228279277.jpg',
+    image: projectImg2,
     tag: '02'
   },
   {
     title: 'Kabrita',
     type: 'E-Learning Excellence',
     description: 'A clean, accessible, and highly responsive educational portal focused on user success and performance.',
-    image: '/src/assets/images/project_texture_3_1781228294949.jpg',
+    image: projectImg3,
     tag: '03'
   },
   {
     title: 'Bohol Municipal',
     type: 'Gov-Tech Solution',
     description: 'Digitizing municipal services with a focus on ease of use, accessibility, and robust information architecture.',
-    image: '/src/assets/images/project_texture_4_1781228309726.jpg',
+    image: projectImg4,
     tag: '04'
   }
 ];
