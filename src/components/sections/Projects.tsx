@@ -99,7 +99,7 @@ export default function Projects() {
               className="w-[85vw] md:w-[65vw] lg:w-[50vw] flex-shrink-0 group cursor-none"
             >
               <div className="relative aspect-[16/10] bg-zinc-900 overflow-hidden border border-white/5">
-                <div className="absolute top-8 left-8 z-20 text-6xl font-display font-black text-white/50 group-hover:text-white transition-colors">
+                <div className="absolute top-8 left-8 z-20 text-6xl font-display font-black text-white group-hover:text-white transition-colors">
                   {project.tag}
                 </div>
                 
@@ -109,13 +109,13 @@ export default function Projects() {
                     src={project.image} 
                     alt={project.title}
                     referrerPolicy="no-referrer"
-                    className="w-full h-full object-cover opacity-30 group-hover:opacity-70 transition-opacity duration-700 select-none grayscale"
+                    className="w-full h-full object-cover opacity-20 group-hover:opacity-60 transition-opacity duration-700 select-none grayscale"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black via-zinc-900/40 to-transparent opacity-90" />
                 </div>
 
                 <div className="absolute inset-0 z-10 flex items-center justify-center p-12 pointer-events-none">
-                   <h4 className="text-[6vw] font-display font-black tracking-tighter text-center uppercase opacity-50 group-hover:opacity-100 transition-opacity duration-700 text-white drop-shadow-lg">
+                   <h4 className="text-[6vw] font-display font-black tracking-tighter text-center uppercase text-white drop-shadow-2xl">
                      {project.title}
                    </h4>
                 </div>
