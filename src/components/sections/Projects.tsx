@@ -4,10 +4,10 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ExternalLink, Github, ArrowRight } from 'lucide-react';
 
-import projectImg1 from '../../assets/images/project_texture_1_1781228262176.jpg';
-import projectImg2 from '../../assets/images/project_texture_2_1781228279277.jpg';
-import projectImg3 from '../../assets/images/project_texture_3_1781228294949.jpg';
-import projectImg4 from '../../assets/images/project_texture_4_1781228309726.jpg';
+import projectImg1 from '@/assets/images/project_texture_1_1781228262176.jpg';
+import projectImg2 from '@/assets/images/project_texture_2_1781228279277.jpg';
+import projectImg3 from '@/assets/images/project_texture_3_1781228294949.jpg';
+import projectImg4 from '@/assets/images/project_texture_4_1781228309726.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 

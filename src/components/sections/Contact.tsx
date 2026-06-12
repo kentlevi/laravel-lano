@@ -1,8 +1,8 @@
 import { motion } from 'motion/react';
 import { Mail, Phone, MapPin, ArrowRight } from 'lucide-react';
-import { Card } from '../ui/card';
-import { Input } from '../ui/input';
-import { Textarea } from '../ui/textarea';
+import { Card } from '@/components/ui/card';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
 
 const contactInfo = [
   {
